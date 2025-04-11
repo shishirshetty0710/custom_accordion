@@ -119,7 +119,7 @@ class _CustomAccordionState extends State<CustomAccordion> {
           tileColor:
               widget.headerBackgroundColor ?? Theme.of(context).splashColor,
           title: Text(
-            widget.title ?? ''
+            widget.title ?? '',
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: widget.titleStyle ??
