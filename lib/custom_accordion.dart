@@ -111,6 +111,9 @@ class _CustomAccordionState extends State<CustomAccordion> {
       color: widget.backgroundColor ?? Theme.of(context).cardColor,
       child: Column(children: [
         ListTile(
+          splashColor: Colors.transparent,  
+          hoverColor: Colors.transparent,       
+          focusColor: Colors.transparent, 
           onTap: widget.disableToggle ? null : () {
             setState(() {
               widget.showContent = !(widget.showContent);
