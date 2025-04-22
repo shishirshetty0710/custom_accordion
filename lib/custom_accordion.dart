@@ -142,6 +142,7 @@ class _CustomAccordionState extends State<CustomAccordion> {
                   : (widget.toggleIconOpen ?? Icons.arrow_drop_down),
               color:
               widget.headerIconColor ?? Theme.of(context).iconTheme.color,
+              size: 32.0
             ),
             tooltip: 'Toggle Accordion',
             splashRadius: 20,
